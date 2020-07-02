@@ -43,6 +43,21 @@ nav ul li a{
 .bottom-footer p{
     color: white;
 }
+/* <!-- Start : Home page first hero section --> */
+.top-hero-section{
+    background-color: #3498db;
+    color: white;
+}
+
+.top-hero-section a{
+    color: white;
+    font-weight: 600;
+}
+
+
+
+/* <!-- END : Home page first hero section --> */
+
 .myrows{
     border: 3px solid green
 }
