@@ -1,0 +1,55 @@
+.cbox{
+    border: 5px solid;
+}
+.arow{
+    border: 2px solid yellow
+}
+.cimgitem{
+    width: 250px;
+    height: 250px;
+}
+.adiv{
+    height:60px;
+    background-color: red;
+}
+.bdiv{
+    height:60px;
+    background-color: gray;
+}
+.cdiv{
+    height:60px;
+    background-color: chocolate;
+}
+.ddiv{
+    height:60px;
+    background-color: green;
+}
+.ediv{
+    height:60px;
+    background-color: fuchsia;
+}
+.fdiv{
+    height:60px;
+    background-color: blue;
+}
+
+.a1div{
+    width: 100px;
+    height:60px;
+    background-color: red;
+}
+.b1div{
+    width: 100px;
+    height:60px;
+    background-color: gray;
+}
+.c1div{
+    width: 100px;
+    height:60px;
+    background-color: chocolate;
+}
+.d1div{
+    width: 100px;
+    height:60px;
+    background-color: green;
+}

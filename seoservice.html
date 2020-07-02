@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SEO Service</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+        integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+</head>
+
+<body>
+    <header>
+        <div class="p-1" id="topHeader">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 text-right">
+                        <a class="p-1" href="tel:+919090909090"> <i class="fa fa-phone"></i>+(91) 9090909090 </a>
+                        <a class="p-1" href="mailto:abc@gmail.com"> <i class="fa fa-envelope"></i>+abc@gmail.com </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="bottomHeader">
+            <div class="container-fluid">
+                <!-- navbar-dark bg-dark classes are needed for a dark header theme 
+                navbar-dark is for text color and bg-dark is for background color of the navbar-->
+                <!-- expand is used to make the nav items stack horizontally.If only navbar-expand is given, then
+                for all devices navbar will be horizontally stacked and it will not look good in lower resolution
+                devices.So if a breakpoint is given , the below those devices navbar will be horizontally stacked
+                which happends to be the default mode 
+                If we want to apply a custom background color, then we need to remove navbar-dark 
+                -->
+                <nav class="navbar navbar-dark navbar-expand-lg" style="background-color: #004d80;">
+                    <!-- The .navbar-brand class is used to highlight the brand/logo/project name of your page: -->
+                    <a class="navbar-brand" href="">
+                        <img src="Images/logo_text_white_small.png" alt="" width="250px">
+                    </a>
+                    <!-- whenever this button is toggled , then the content(data-target) is collapsed -->
+                    <button data-toggle="collapse" data-target="#navbarToggler" class="navbar-toggler"><span
+                            class="navbar-toggler-icon"></span></button>
+                    <!-- navbar-nav actually makes the list-style as none + ... -->
+                    <!-- id:navbarToggler and class:collapse & navbar-collapse are added to add toggle behaviour when hamburger icon is pressed.
+                    these 3 can also be added as a separate div for a much cleaner code..but all gives the same behaviour -->
+                    <ul id="navbarToggler" class="collapse navbar-collapse navbar-nav">
+                        <!-- nav-item contains some flex properties -->
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">Home</a>
+                        </li>
+                        <!-- dropdown to li & dropdown-toggle to a should be added for a drop down feature -->
+                        <li class="nav-item dropdown">
+                            <!-- data-toggle="dropdown" is needed , else even if we click, dropdown menu won't come.role="button" doesn;t offer much -->
+                            <a data-toggle="dropdown" role="button" class="nav-link dropdown-toggle  active"
+                                href="#">Services</a>
+                            <!-- dropdown-menu class is needed, else everything present inside it will be added under services even before we click -->
+                            <!-- <a data-toggle="dropdown"> and the first <div class="dropdown-menu"> are connected for drop down menu , other div's with dropdown-menu will not get connected -->
+                            <div class="dropdown-menu">
+                                <!-- dropdown-item is needed to style , else normal a tag's style will be applied -->
+                                <a class="dropdown-item" href="webdesigning.html">Web Designing</a>
+                                <a class="dropdown-item" href="webdevelopment.html">Web Development</a>
+                                <a class="dropdown-item active" href="seoservice.html">SEO Services</a>
+                                <a class="dropdown-item" href="softwaredevelopment.html">Software Development</a>
+                                <a class="dropdown-item" href="mobileapps.html">Mobile App Development</a>
+                                <div class="dropdown-divider"></div>
+                                <a class="dropdown-item" href="graphicdesign.html">Graphic Designing</a>
+                            </div>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="portfolio.html">Portfolio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="aboutus.html">About Us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contactus.html">Contact Us</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <footer class="full-footer">
+        <div class="container top-footer p-md-3 p-1">
+            <div class="row">
+                <div class="col-md-3 pl-4 pr-4">
+                    <img src="Images/logo_text_white_small.png" alt="" class="img-fluid">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas perferendis eos maiores
+                        aliquid,
+                        quis corrupti sequi modi nesciunt consectetur? Laudantium? <a id="readmore" href="#">Read
+                            more...</a></p>
+                    <a style="color:silver;" class="p-1" href="http://facebook.com"><i
+                            class="fa fa-2x fa-facebook"></i></a>
+                    <a style="color:silver;" class="p-1" href="http://facebook.com"><i
+                            class="fa fa-2x fa-google-plus-square"></i></a>
+                    <a style="color:silver;" class="p-1" href="http://facebook.com"><i
+                            class="fa fa-2x fa-twitter-square"></i></a>
+                    <a style="color:silver;" class="p-1" href="http://facebook.com"><i
+                            class="fa fa-2x fa-instagram"></i></a>
+                </div>
+                <div class="col-md-3 pl-4 pr-4">
+                    <h3>Important Links</h3>
+                    <a href="#">Priacy Policy</a><br>
+                    <a href="#">Youtube Channel Link</a><br>
+                    <a href="#">Blog Articles</a><br>
+                    <a href="#">Social Media</a><br>
+                </div>
+                <div class="col-md-3 pl-4 pr-4">
+                    <h3>Our Services</h3>
+                    <a href="webdesigning.html">Web designing</a><br>
+                    <a href="webdevelopment.html">Web Development</a><br>
+                    <a href="seoservice.html">SEO Services</a><br>
+                    <a href="softwaredevelopment.html">Software Development</a><br>
+                    <a href="mobileapps.html">Mobile App Development</a><br>
+                    <a href="graphicdesign.html">Graphic Designing</a><br>
+                </div>
+                <div class="col-md-3 pl-4 pr-4">
+                    <h3>Contact Us</h3>
+                    <a class="p-1" href="tel:+919090909090"> <i class="fa fa-phone"></i>+(91) 9090909090 </a><br>
+                    <a class="p-1" href="mailto:abc@gmail.com"> <i class="fa fa-envelope"></i>+abc@gmail.com </a>
+                    <!-- Inorder to make iframe response, we are embedding them inside a div with 2 b4 classes 
+                BOTH ARE MANDATORY
+                embed-responsive-item adds some padding, sizes etc... -->
+                    <div class="embed-responsive embed-responsive-16by9  mt-2">
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d241317.11609823277!2d72.74109995709657!3d19.08219783958221!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7c6306644edc1%3A0x5da4ed8f8d648c69!2sMumbai%2C%20Maharashtra!5e0!3m2!1sen!2sin!4v1593704600118!5m2!1sen!2sin"
+                            frameborder="0" class="embed-responsive-item"></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid bottom-footer pt-2">
+            <div class="row">
+                <div class="col-12">
+                    <p class="text-center">Copyrights @ 2018 - All Rights Reserved</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- This order should be preserved , 1st jquery and then bootstrap as bootstrap depends on jquery -->
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+</body>
+
+</html>
