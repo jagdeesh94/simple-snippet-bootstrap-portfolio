@@ -53,11 +53,40 @@ nav ul li a{
     color: white;
     font-weight: 600;
 }
-
-
-
 /* <!-- END : Home page first hero section --> */
 
+/* <!-- Start : Home page 3rd requirement section --> */
+.requirements-section{
+    background-color: #004d80;
+}
+.requirements-section h3{
+    color: white;
+}
+.qualities-img{
+    width: 200px;
+}
+/* <!-- END : Home page 3rd requirement section --> */
+
+/* <!-- START : Home page 4th section newsletter section --> */
+.home-newsletter{
+    background-color: #004d80;
+    color: white;
+}
+/* <!-- END : Home page 4th section newsletter section --> */
+.home-newsletter .form-control {
+	height: 50px;
+	border-color: transparent;
+	border-radius: 20px 0 0 20px;
+}
+.home-newsletter .btn {
+	min-height: 50px;
+	border-radius: 0 20px 20px 0;
+	background: #be0280;
+	color: #fff;
+}
+.clients-section{
+    background-color: silver;
+}
 .myrows{
     border: 3px solid green
 }
