@@ -97,9 +97,18 @@ nav ul li a{
     background-color: aqua;
     border: 3px solid red
 }
+/* START-------------------- of About page ---------------------- */
 .breadcrumb-section{
     background-color: #e9ecef;
 }
+/* END-------------------- of About page ---------------------- */
+
+/* START-------------------- of Contact Us Page ---------------------- */
+.address p{
+    font-weight: 600;
+  
+  }
+  
 .first{
     height: 300px;
     background-color: red;
