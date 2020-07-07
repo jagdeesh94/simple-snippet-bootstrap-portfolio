@@ -109,6 +109,14 @@ nav ul li a{
   
   }
   
+.bar{
+    color: white;
+    font-weight: 600;
+    font-size: 1.1rem;
+    border-radius: 17px;
+    border: 2px solid slategray;
+}
+
 .first{
     height: 300px;
     background-color: red;
